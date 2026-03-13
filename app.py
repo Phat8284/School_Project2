@@ -12,7 +12,7 @@ def hello_world():
 
 
 
-@app.route("/hello")
+@app.route("/hello2")
 def hello():
     return render_template('index.html')
 
